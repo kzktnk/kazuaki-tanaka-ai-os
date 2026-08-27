@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Python virtual environments
+.venv/
+.venv-*/
+.venv-pptx/
+
+# Local generated outputs
+outputs/
+.tmp-*
+
+# Local tooling (not for repo)
+.tools/
+
+# Local generators (do not commit)
+scripts/generate_client_*.py
+scripts/transcribe_*_recordings.py
+
+# Local scripts workspace (uncomment to ignore all scripts/)
+# scripts/
